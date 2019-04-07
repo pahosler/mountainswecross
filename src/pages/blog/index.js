@@ -8,17 +8,19 @@ export default class BlogIndexPage extends React.Component {
     return (
       <Layout>
         <div
-          className="full-width-image-container margin-top-0"
+          className="full-width-image-container full-width-image margin-top-0"
           style={{
             backgroundImage: `url('/img/blog-index.jpg')`,
           }}
         >
           <h1
-            className="has-text-weight-bold is-size-1"
+            className="has-text-weight-bold is-size-1 has-family-sofia"
             style={{
-              boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-              backgroundColor: '#f40',
-              color: 'white',
+              // boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
+              // backgroundColor: 'rgba(205, 133, 63, .75)',
+                // border: '3px solid rgba(205, 133, 63, .5)',
+                // borderRadius: '.175em',
+                color: '#ffefbe',
               padding: '1rem',
             }}
           >
